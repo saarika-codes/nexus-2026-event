@@ -4,7 +4,7 @@
 > vanilla HTML, CSS & Bootstrap 5. Zero frameworks, zero dependencies.
 
 ## 🌐 Live Demo
-🔗 [View Live →](https://nexus-2026.vercel.app)
+🔗 https://nexus-2026-event.vercel.app/
 
 ---
 
