@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEXUS 2026 — The Future of Innovation</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#hero">Skip to main content</a>
+
+  <!-- ─── NAVIGATION ─────────────────────────────────────────────── -->
+  <nav id="mainNav" class="navbar navbar-expand-lg fixed-top" role="navigation">
+    <div class="container">
+      <a class="navbar-brand" href="#hero">
+        <span class="brand-nx">NX</span><span class="brand-us">US</span>
+        <span class="brand-year">2026</span>
+      </a>
+     
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#speakers">Speakers</a></li>
+          <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tickets">Tickets</a></li>
+          <li class="nav-item"><a class="nav-link" href="#venue">Venue</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-gold-sm" href="#register">Register</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ───────────────────────────────────────────────────── -->
+  <section id="hero" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-grid-lines"></div>
+    <div class="container hero-content">
+      <div class="hero-tag"><span class="dot"></span> SEPTEMBER 18–20, 2026 &nbsp;·&nbsp; NEW YORK CITY</div>
+      <h1 class="hero-title">
+        <span class="title-line line-1">THE</span>
+        <span class="title-line line-2">FUTURE</span>
+        <span class="title-line line-3">IS <em>NOW</em></span>
+      </h1>
+      <p class="hero-sub">Three days. 80+ visionaries. One seismic conversation about where humanity goes next.</p>
+      <div class="hero-actions">
+        <a href="#register" class="btn btn-gold">Register Now <i class="bi bi-arrow-right ms-1"></i></a>
+        <a href="#speakers" class="btn btn-ghost">Meet the Speakers</a>
+      </div>
+    </div>
+    <!-- Countdown -->
+    <div class="countdown-bar">
+      <div class="container">
+        <div class="countdown-inner">
+          <div class="countdown-label">Event starts in</div>
+          <div class="countdown-units">
+            <div class="c-unit"><span id="c-days">00</span><small>Days</small></div>
+            <div class="c-sep">:</div>
+            <div class="c-unit"><span id="c-hours">00</span><small>Hours</small></div>
+            <div class="c-sep">:</div>
+            <div class="c-unit"><span id="c-mins">00</span><small>Minutes</small></div>
+            <div class="c-sep">:</div>
+            <div class="c-unit"><span id="c-secs">00</span><small>Seconds</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── STATS BAND ─────────────────────────────────────────────── -->
+  <section class="stats-band">
+    <div class="container">
+      <div class="row g-0 stats-row">
+        <div class="col-6 col-md-3 stat-item">
+          <span class="stat-num">80<sup>+</sup></span>
+          <span class="stat-label">World-class Speakers</span>
+        </div>
+        <div class="col-6 col-md-3 stat-item">
+          <span class="stat-num">3K</span>
+          <span class="stat-label">Attendees Expected</span>
+        </div>
+        <div class="col-6 col-md-3 stat-item">
+          <span class="stat-num">48</span>
+          <span class="stat-label">Curated Sessions</span>
+        </div>
+        <div class="col-6 col-md-3 stat-item">
+          <span class="stat-num">12</span>
+          <span class="stat-label">Countries Represented</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SPEAKERS ───────────────────────────────────────────────── -->
+  <section id="speakers" class="section-speakers">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Confirmed Voices</span>
+        <h2 class="section-title">The Speakers</h2>
+        <p class="section-sub">Pioneers, dissidents, builders, and dreamers — handpicked for one thing: they have something real to say.</p>
+        <div class="speaker-search">
+          <input id="speakerSearch" class="form-control" placeholder="Search speakers or topics..." aria-label="Search speakers" />
+        </div>
+      </div>
+      <div class="row g-4 justify-content-center">
+
+        <!-- Speaker Cards -->
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="speaker-card">
+            <div class="speaker-img-wrap">
+              <img src="https://i.pravatar.cc/300?img=47" alt="Speaker" />
+              <div class="speaker-hover">
+                <p class="speaker-bio">Former CTO of a Fortune 100 company, now building the future of decentralized AI at the edge.</p>
+                <div class="speaker-socials">
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="speaker-info">
+              <h5>Aria Chen</h5>
+              <span class="speaker-topic"><i class="bi bi-cpu"></i> AI & Edge Computing</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="speaker-card">
+            <div class="speaker-img-wrap">
+              <img src="https://i.pravatar.cc/300?img=12" alt="Speaker" />
+              <div class="speaker-hover">
+                <p class="speaker-bio">Author of "Post-Human Economics" and advisor to three central banks on the impact of AI on labour markets.</p>
+                <div class="speaker-socials">
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="speaker-info">
+              <h5>Marcus Webb</h5>
+              <span class="speaker-topic"><i class="bi bi-graph-up-arrow"></i> Future of Work</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="speaker-card">
+            <div class="speaker-img-wrap">
+              <img src="https://i.pravatar.cc/300?img=29" alt="Speaker" />
+              <div class="speaker-hover">
+                <p class="speaker-bio">Bioethicist and genetic privacy advocate. Named one of Time's 100 most influential people three years running.</p>
+                <div class="speaker-socials">
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="speaker-info">
+              <h5>Dr. Leila Osei</h5>
+              <span class="speaker-topic"><i class="bi bi-dna"></i> Bioethics</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="speaker-card">
+            <div class="speaker-img-wrap">
+              <img src="https://i.pravatar.cc/300?img=8" alt="Speaker" />
+              <div class="speaker-hover">
+                <p class="speaker-bio">Architect of three billion-dollar platforms. Now focused on responsible scaling and the ethics of growth-at-all-costs.</p>
+                <div class="speaker-socials">
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="speaker-info">
+              <h5>Jordan Reyes</h5>
+              <span class="speaker-topic"><i class="bi bi-rocket-takeoff"></i> Startup Strategy</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="speaker-card">
+            <div class="speaker-img-wrap">
+              <img src="https://i.pravatar.cc/300?img=39" alt="Speaker" />
+              <div class="speaker-hover">
+                <p class="speaker-bio">Climate tech founder whose carbon-capture network has sequestered more CO₂ than any private initiative in history.</p>
+                <div class="speaker-socials">
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="speaker-info">
+              <h5>Ingrid Solberg</h5>
+              <span class="speaker-topic"><i class="bi bi-tree"></i> Climate Tech</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="speaker-card">
+            <div class="speaker-img-wrap">
+              <img src="https://i.pravatar.cc/300?img=15" alt="Speaker" />
+              <div class="speaker-hover">
+                <p class="speaker-bio">NASA veteran and private space architect. Currently designing the first commercial lunar habitat module.</p>
+                <div class="speaker-socials">
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="speaker-info">
+              <h5>Tariq Al-Amin</h5>
+              <span class="speaker-topic"><i class="bi bi-stars"></i> Space & Exploration</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="speaker-card">
+            <div class="speaker-img-wrap">
+              <img src="https://i.pravatar.cc/300?img=56" alt="Speaker" />
+              <div class="speaker-hover">
+                <p class="speaker-bio">Renowned futurist and author of "Rewired" — mapping the neurological impact of living inside always-on digital systems.</p>
+                <div class="speaker-socials">
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="speaker-info">
+              <h5>Sena Müller</h5>
+              <span class="speaker-topic"><i class="bi bi-lightning-charge"></i> Neuro & Digital</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="speaker-card">
+            <div class="speaker-img-wrap">
+              <img src="https://i.pravatar.cc/300?img=33" alt="Speaker" />
+              <div class="speaker-hover">
+                <p class="speaker-bio">Policy architect behind landmark digital sovereignty laws in the EU — now advising governments across Southeast Asia.</p>
+                <div class="speaker-socials">
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="speaker-info">
+              <h5>Maya Patel</h5>
+              <span class="speaker-topic"><i class="bi bi-shield-check"></i> Tech Policy</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SCHEDULE ───────────────────────────────────────────────── -->
+  <section id="schedule" class="section-schedule">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag">Full Programme</span>
+        <h2 class="section-title">The Agenda</h2>
+        <p class="section-sub">Three days of dense, deliberately programmed conversations with zero filler.</p>
+      </div>
+
+      <!-- Day Tabs -->
+      <ul class="nav schedule-tabs justify-content-center" id="scheduleTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="sched-tab active" id="d1-tab" data-bs-toggle="tab" data-bs-target="#day1" type="button" role="tab">
+            <span class="tab-day">Day 01</span>
+            <span class="tab-date">Sept 18</span>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="sched-tab" id="d2-tab" data-bs-toggle="tab" data-bs-target="#day2" type="button" role="tab">
+            <span class="tab-day">Day 02</span>
+            <span class="tab-date">Sept 19</span>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="sched-tab" id="d3-tab" data-bs-toggle="tab" data-bs-target="#day3" type="button" role="tab">
+            <span class="tab-day">Day 03</span>
+            <span class="tab-date">Sept 20</span>
+          </button>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="scheduleTabContent">
+        <!-- Day 1 -->
+        <div class="tab-pane fade show active" id="day1" role="tabpanel">
+          <div class="schedule-list">
+            <div class="sched-item featured">
+              <div class="sched-time">09:00</div>
+              <div class="sched-body">
+                <span class="sched-type keynote">Keynote</span>
+                <h5>Opening Ceremony & Welcome Address</h5>
+                <p>Setting the stage for three days of radical ideas. Why this moment matters.</p>
+                <span class="sched-speaker"><i class="bi bi-person-fill"></i> Aria Chen</span>
+              </div>
+            </div>
+            <div class="sched-item">
+              <div class="sched-time">10:30</div>
+              <div class="sched-body">
+                <span class="sched-type talk">Talk</span>
+                <h5>The Intelligence Explosion: Myth or Imminent Reality?</h5>
+                <p>A rigorous, evidence-based look at timelines and what they mean for policy.</p>
+                <span class="sched-speaker"><i class="bi bi-person-fill"></i> Marcus Webb</span>
+              </div>
+            </div>
+            <div class="sched-item">
+              <div class="sched-time">12:00</div>
+              <div class="sched-body">
+                <span class="sched-type break">Break</span>
+                <h5>Networking Lunch</h5>
+                <p>Curated roundtable seating — meet the people you need to meet.</p>
+              </div>
+            </div>
+            <div class="sched-item">
+              <div class="sched-time">14:00</div>
+              <div class="sched-body">
+                <span class="sched-type panel">Panel</span>
+                <h5>Who Owns the Future of Work?</h5>
+                <p>Labour, capital, and automation collide in a live debate you won't want to miss.</p>
+                <span class="sched-speaker"><i class="bi bi-person-fill"></i> Jordan Reyes · Maya Patel</span>
+              </div>
+            </div>
+            <div class="sched-item">
+              <div class="sched-time">16:00</div>
+              <div class="sched-body">
+                <span class="sched-type workshop">Workshop</span>
+                <h5>Hands-On: Building Responsible AI Systems</h5>
+                <p>A small-group deep-dive into practical alignment toolkits.</p>
+                <span class="sched-speaker"><i class="bi bi-person-fill"></i> Dr. Leila Osei</span>
+              </div>
+            </div>
+            <div class="sched-item">
+              <div class="sched-time">19:00</div>
+              <div class="sched-body">
+                <span class="sched-type social">Social</span>
+                <h5>Opening Night Reception</h5>
+                <p>Cocktails, canapés, and conversations. Venue: The Glasshouse Terrace.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 2 -->
+        <div class="tab-pane fade" id="day2" role="tabpanel">
+          <div class="schedule-list">
+            <div class="sched-item featured">
+              <div class="sched-time">09:00</div>
+              <div class="sched-body">
+                <span class="sched-type keynote">Keynote</span>
+                <h5>The New Physics of Progress: Climate, Biology & the Age of Engineering Life</h5>
+                <p>Why this decade is the most consequential in the history of the life sciences.</p>
+                <span class="sched-speaker"><i class="bi bi-person-fill"></i> Ingrid Solberg</span>
+              </div>
+            </div>
+            <div class="sched-item">
+              <div class="sched-time">10:45</div>
+              <div class="sched-body">
+                <span class="sched-type talk">Talk</span>
+                <h5>Lunar Commerce: The $4 Trillion Economy Above Our Heads</h5>
+                <p>From helium-3 to tourism — mapping the actual business models of space.</p>
+                <span class="sched-speaker"><i class="bi bi-person-fill"></i> Tariq Al-Amin</span>
+              </div>
+            </div>
+            <div class="sched-item">
+              <div class="sched-time">12:00</div>
+              <div class="sched-body">
+                <span class="sched-type break">Break</span>
+                <h5>Lunch & Innovation Expo</h5>
+                <p>Explore 30+ demo booths from cutting-edge startups and research labs.</p>
+              </div>
+            </div>
+            <div class="sched-item">
+              <div class="sched-time">14:00</div>
+              <div class="sched-body">
+                <span class="sched-type panel">Panel</span>
+                <h5>Privacy, Sovereignty, and the Global Data Wars</h5>
+                <p>The regulators, the rebels, and the reality of governing the internet.</p>
+                <span class="sched-speaker"><i class="bi bi-person-fill"></i> Maya Patel · Marcus Webb</span>
+              </div>
+            </div>
+            <div class="sched-item">
+              <div class="sched-time">16:30</div>
+              <div class="sched-body">
+                <span class="sched-type workshop">Workshop</span>
+                <h5>Fireside: Building for Billions Without Breaking the World</h5>
+                <p>An intimate conversation with Jordan Reyes — Q&A open to all ticket holders.</p>
+                <span class="sched-speaker"><i class="bi bi-person-fill"></i> Jordan Reyes</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 3 -->
+        <div class="tab-pane fade" id="day3" role="tabpanel">
+          <div class="schedule-list">
+            <div class="sched-item featured">
+              <div class="sched-time">09:00</div>
+              <div class="sched-body">
+                <span class="sched-type keynote">Keynote</span>
+                <h5>Rewired: The Human Brain in the Age of Infinite Distraction</h5>
+                <p>New neuroscience on attention, cognition, and what digital life is doing to us.</p>
+                <span class="sched-speaker"><i class="bi bi-person-fill"></i> Sena Müller</span>
+              </div>
+            </div>
+            <div class="sched-item">
+              <div class="sched-time">11:00</div>
+              <div class="sched-body">
+                <span class="sched-type panel">Panel</span>
+                <h5>The Ethics Roundtable: When Does Innovation Become Irresponsible?</h5>
+                <p>All eight featured speakers share a stage for one final, unscripted conversation.</p>
+                <span class="sched-speaker"><i class="bi bi-person-fill"></i> All Speakers</span>
+              </div>
+            </div>
+            <div class="sched-item">
+              <div class="sched-time">13:00</div>
+              <div class="sched-body">
+                <span class="sched-type break">Break</span>
+                <h5>Farewell Lunch & Certificate Ceremony</h5>
+                <p>Collect your NEXUS credentials and connect with the community one last time.</p>
+              </div>
+            </div>
+            <div class="sched-item featured">
+              <div class="sched-time">15:00</div>
+              <div class="sched-body">
+                <span class="sched-type keynote">Closing</span>
+                <h5>A Letter to the Future — Closing Ceremony</h5>
+                <p>A collaborative, live manifesto written by the audience and speakers together.</p>
+                <span class="sched-speaker"><i class="bi bi-person-fill"></i> All Speakers</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── TICKETS ─────────────────────────────────────────────────── -->
+  <section id="tickets" class="section-tickets">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Choose Your Pass</span>
+        <h2 class="section-title">Tickets</h2>
+        <p class="section-sub">Early-bird pricing ends August 1st. All passes include full digital access.</p>
+      </div>
+      <div class="row g-4 justify-content-center align-items-stretch">
+
+        <div class="col-md-6 col-lg-4">
+          <div class="ticket-card">
+            <div class="ticket-tier">Explorer</div>
+            <div class="ticket-price">$299 <span class="was">$399</span></div>
+            <div class="ticket-period">per person</div>
+            <ul class="ticket-perks">
+              <li><i class="bi bi-check2"></i> 3-day General Access</li>
+              <li><i class="bi bi-check2"></i> All Keynotes & Panels</li>
+              <li><i class="bi bi-check2"></i> Digital Content Library</li>
+              <li><i class="bi bi-check2"></i> Event App Access</li>
+              <li class="faded"><i class="bi bi-x"></i> Workshop Seats</li>
+              <li class="faded"><i class="bi bi-x"></i> VIP Networking Dinner</li>
+              <li class="faded"><i class="bi bi-x"></i> Speaker Meet & Greet</li>
+            </ul>
+            <a href="#register" class="btn btn-outline-gold w-100">Get Explorer Pass</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="ticket-card featured">
+            <div class="ticket-badge">Most Popular</div>
+            <div class="ticket-tier">Innovator</div>
+            <div class="ticket-price">$599 <span class="was">$799</span></div>
+            <div class="ticket-period">per person</div>
+            <ul class="ticket-perks">
+              <li><i class="bi bi-check2"></i> 3-day Full Access</li>
+              <li><i class="bi bi-check2"></i> All Keynotes & Panels</li>
+              <li><i class="bi bi-check2"></i> Digital Content Library</li>
+              <li><i class="bi bi-check2"></i> Event App Access</li>
+              <li><i class="bi bi-check2"></i> 3 Workshop Seats</li>
+              <li><i class="bi bi-check2"></i> VIP Networking Dinner</li>
+              <li class="faded"><i class="bi bi-x"></i> Speaker Meet & Greet</li>
+            </ul>
+            <a href="#register" class="btn btn-gold w-100">Get Innovator Pass</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="ticket-card dark">
+            <div class="ticket-tier">Visionary</div>
+            <div class="ticket-price">$1,299</div>
+            <div class="ticket-period">per person · limited to 50 seats</div>
+            <ul class="ticket-perks">
+              <li><i class="bi bi-check2"></i> 3-day VIP Access</li>
+              <li><i class="bi bi-check2"></i> All Keynotes & Panels</li>
+              <li><i class="bi bi-check2"></i> Digital Content Library</li>
+              <li><i class="bi bi-check2"></i> Priority Event App</li>
+              <li><i class="bi bi-check2"></i> Unlimited Workshops</li>
+              <li><i class="bi bi-check2"></i> VIP Networking Dinner</li>
+              <li><i class="bi bi-check2"></i> Speaker Meet & Greet</li>
+            </ul>
+            <a href="#register" class="btn btn-outline-gold w-100">Get Visionary Pass</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── VENUE ───────────────────────────────────────────────────── -->
+  <section id="venue" class="section-venue">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5">
+          <span class="section-tag">The Location</span>
+          <h2 class="venue-title">New York<br/><em>Javits Center</em></h2>
+          <p class="venue-desc">One of the most iconic convention spaces in the world — situated on the west side of Manhattan with sweeping Hudson River views. 760,000 sq ft of curated space designed for meaningful connection.</p>
+          <ul class="venue-details">
+            <li><i class="bi bi-geo-alt-fill"></i> 429 11th Ave, New York, NY 10001</li>
+            <li><i class="bi bi-train-front-fill"></i> 5-min walk from Hudson Yards station</li>
+            <li><i class="bi bi-airplane-fill"></i> 30-min from JFK, 20-min from EWR</li>
+            <li><i class="bi bi-building"></i> Partner hotels from $189/night available</li>
+          </ul>
+          <a href="https://maps.google.com" target="_blank" class="btn btn-gold mt-2">Get Directions <i class="bi bi-box-arrow-up-right ms-1"></i></a>
+        </div>
+        <div class="col-lg-7">
+          <div class="venue-img-frame">
+            <img src="https://images.unsplash.com/photo-1582192730841-2a682d7375f9?w=900&q=80" alt="Javits Center" />
+            <div class="venue-badge">NYC<br/><small>Sept 2026</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── REGISTER ────────────────────────────────────────────────── -->
+  <section id="register" class="section-register">
+    <div class="register-overlay"></div>
+    <div class="container position-relative">
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <div class="register-card">
+            <div class="register-header">
+              <span class="section-tag">Secure Your Seat</span>
+              <h2>Register for NEXUS 2026</h2>
+              <p>Early-bird pricing applies automatically. You'll receive a confirmation email within minutes.</p>
+            </div>
+            <form id="registerForm" novalidate>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label class="form-label" for="firstName">First Name *</label>
+                  <input type="text" class="form-control nx-input" id="firstName" placeholder="Aria" required />
+                  <div class="invalid-feedback">Please enter your first name.</div>
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="lastName">Last Name *</label>
+                  <input type="text" class="form-control nx-input" id="lastName" placeholder="Chen" required />
+                  <div class="invalid-feedback">Please enter your last name.</div>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="email">Email Address *</label>
+                  <input type="email" class="form-control nx-input" id="email" placeholder="aria@nexus2026.com" required />
+                  <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="company">Company / Organisation</label>
+                  <input type="text" class="form-control nx-input" id="company" placeholder="Anthropic" />
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label" for="phone">Phone Number</label>
+                  <input type="tel" class="form-control nx-input" id="phone" placeholder="+1 555 000 0000" />
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="ticketType">Ticket Type *</label>
+                  <select class="form-select nx-input" id="ticketType" required>
+                    <option value="" disabled selected>Select your pass</option>
+                    <option value="explorer">Explorer — $299</option>
+                    <option value="innovator">Innovator — $599</option>
+                    <option value="visionary">Visionary — $1,299</option>
+                  </select>
+                  <div class="invalid-feedback">Please select a ticket type.</div>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="dietary">Dietary Requirements</label>
+                  <input type="text" class="form-control nx-input" id="dietary" placeholder="e.g. vegan, gluten-free, none" />
+                </div>
+                <div class="col-12">
+                  <div class="form-check nx-check">
+                    <input class="form-check-input" type="checkbox" id="termsCheck" required />
+                    <label class="form-check-label" for="termsCheck">
+                      I agree to the <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a> *
+                    </label>
+                    <div class="invalid-feedback">You must agree before submitting.</div>
+                  </div>
+                </div>
+                <div class="col-12 mt-2">
+                  <button type="submit" class="btn btn-gold w-100 btn-submit" id="submitBtn">
+                    <span class="btn-text">Register Now <i class="bi bi-arrow-right ms-1"></i></span>
+                    <span class="btn-spinner d-none"><span class="spinner-border spinner-border-sm me-2"></span>Processing...</span>
+                  </button>
+                </div>
+              </div>
+            </form>
+            <div id="formSuccess" class="form-success d-none">
+              <div class="success-icon"><i class="bi bi-check-circle-fill"></i></div>
+              <h4>You're registered!</h4>
+              <p>Check your inbox — a confirmation is on its way. We'll see you in September.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─────────────────────────────────────────────────── -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4 footer-top">
+        <div class="col-lg-4">
+          <div class="footer-brand">
+            <span class="brand-nx">NX</span><span class="brand-us">US</span>
+            <span class="brand-year">2026</span>
+          </div>
+          <p class="footer-tagline">The Future of Innovation<br/>September 18–20, New York City.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Twitter/X"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2 offset-lg-1">
+          <h6 class="footer-heading">Event</h6>
+          <ul class="footer-links">
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#schedule">Agenda</a></li>
+            <li><a href="#tickets">Tickets</a></li>
+            <li><a href="#venue">Venue</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h6 class="footer-heading">Info</h6>
+          <ul class="footer-links">
+            <li><a href="#">About NEXUS</a></li>
+            <li><a href="#">Sponsorship</a></li>
+            <li><a href="#">Press Kit</a></li>
+            <li><a href="#">Accessibility</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h6 class="footer-heading">Stay Updated</h6>
+          <p class="footer-newsletter-text">Get speaker announcements and schedule updates.</p>
+          <div class="footer-newsletter">
+            <input type="email" class="newsletter-input" placeholder="your@email.com" />
+            <button class="newsletter-btn"><i class="bi bi-send-fill"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 NEXUS Conference. All rights reserved.</span>
+        <span>
+          <a href="#">Privacy Policy</a> &nbsp;·&nbsp;
+          <a href="#">Terms of Service</a> &nbsp;·&nbsp;
+          <a href="#">Cookie Settings</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Speaker Detail Modal -->
+  <div class="modal fade" id="speakerModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h5 class="modal-title" id="speakerModalLabel">Speaker</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-3 align-items-center">
+            <div class="col-md-4 text-center">
+              <img id="modalImage" src="" alt="" class="img-fluid rounded" />
+            </div>
+            <div class="col-md-8">
+              <h4 id="modalName"></h4>
+              <p class="muted" id="modalTopic"></p>
+              <p id="modalBio"></p>
+              <div id="modalSocials" class="modal-socials"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
