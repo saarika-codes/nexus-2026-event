@@ -41,6 +41,8 @@ nexus-2026-event-landing-page/
 ├── styles.css     # Custom design system on top of Bootstrap
 
 └── script.js      # Countdown timer, speaker search, form validation
+
+
 ---
 
 ## 🛠️ Tech Stack
