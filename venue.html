@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Venue — NEXUS 2026</title>
+  <meta name="description" content="NEXUS 2026 takes place at the Javits Center in New York City. Maps, directions and travel info." />
+  <meta name="theme-color" content="#0B0D0E" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="venue">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <header class="page-hero">
+      <div class="container text-center">
+        <span class="section-tag">The Location</span>
+        <h1 class="section-title">Venue &amp; Travel</h1>
+        <p class="section-sub">Everything you need to find us and get here easily.</p>
+      </div>
+    </header>
+
+    <section class="section-venue" style="padding-top:5rem">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5 reveal">
+            <h2 class="venue-title">New York<br /><em data-nx="venue">Javits Center</em></h2>
+            <p class="venue-desc">One of the most iconic convention spaces in the world, on Manhattan’s west side with sweeping Hudson River views. Designed for meaningful connection.</p>
+            <ul class="venue-details">
+              <li><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> <span data-nx="address">429 11th Ave, New York, NY 10001</span></li>
+              <li><i class="bi bi-calendar-event-fill" aria-hidden="true"></i> <span data-nx="dates">December 11–13, 2026</span></li>
+              <li><i class="bi bi-building" aria-hidden="true"></i> Partner hotels from $189/night available</li>
+            </ul>
+            <div class="d-flex flex-wrap gap-2 mt-2">
+              <a href="https://www.google.com/maps/dir/?api=1&destination=Javits+Center+New+York" target="_blank" rel="noopener" class="btn-accent">Get Directions <i class="bi bi-box-arrow-up-right"></i></a>
+              <button type="button" class="btn-outline-accent" id="copyAddress"><i class="bi bi-clipboard"></i> Copy address</button>
+            </div>
+          </div>
+          <div class="col-lg-7 reveal">
+            <div class="venue-img-frame">
+              <img src="https://images.unsplash.com/photo-1582192730841-2a682d7375f9?w=900&q=80" alt="Exterior of the Javits Center in New York" loading="lazy" />
+              <div class="venue-badge">NYC<br /><small>Dec 2026</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Getting there</span>
+          <h2 class="section-title">Travel Info</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4 reveal">
+            <div class="info-card">
+              <i class="bi bi-train-front-fill" aria-hidden="true"></i>
+              <h3>By Subway</h3>
+              <p>A short walk from the 34 St–Hudson Yards (7) station. Several bus routes also stop nearby.</p>
+            </div>
+          </div>
+          <div class="col-md-4 reveal">
+            <div class="info-card">
+              <i class="bi bi-airplane-fill" aria-hidden="true"></i>
+              <h3>By Air</h3>
+              <p>Roughly 45 minutes from JFK and 35 minutes from Newark (EWR) by car, depending on traffic.</p>
+            </div>
+          </div>
+          <div class="col-md-4 reveal">
+            <div class="info-card">
+              <i class="bi bi-building" aria-hidden="true"></i>
+              <h3>Stay Nearby</h3>
+              <p>Partner hotels start from $189/night. Book early, as December is a busy month in the city.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="map-frame reveal">
+          <iframe title="Map showing the Javits Center, New York" src="https://www.google.com/maps?q=Javits%20Center%20New%20York&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
